@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="org.excel.IPTDataDriven.Demoblaze">
+        <methods>
+          <include name="close"/>
+          <include name="purchase"/>
+          <include name="details"/>
+          <include name="mobile"/>
+          <include name="text"/>
+          <include name="browser"/>
+          <include name="log"/>
+        </methods>
+      </class> <!-- org.excel.IPTDataDriven.Demoblaze -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
